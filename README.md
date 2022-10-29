@@ -11,7 +11,7 @@ This code is written with python 3.8.3. For packages required to run this code, 
 
 ## Preparation
 
-Please download the MultiWOZ 2.3 data set from [their official repository](github.com/lexmen318/MultiWOZ-coref) and place the downloaded under the `datasets` folder.
+Please download the MultiWOZ 2.3 data set from [their official repository](https://github.com/lexmen318/MultiWOZ-coref) and place the downloaded under the `datasets` folder.
 
 As expected, you should have the following directory structure.
 ```
@@ -64,6 +64,6 @@ python experiments.py --method Trade --devices 0 --pretrained none --ood --check
 ```
 
 ## License
-The code is released under BSD 3-Clause - see [LICENSE](https://github.com/yegcjs/OOD_DST/blob/main/license) for details.
+The code is released under BSD 3-Clause - see [LICENSE](https://github.com/yegcjs/DST_OOD/blob/main/license) for details.
 
-This code includes other open source codes from [SimpleTOD](github.com/salesforce/simpletod), [Trippy](gitlab.cs.uni-duesseldorf.de/general/dsml/trippy-public) and [Trade](github.com/jasonwu0731/trade-dst). These components have their own liscences. Please refer to their official repositories.
+This code includes other open source codes from [SimpleTOD](https://github.com/salesforce/simpletod), [Trippy](gitlab.cs.uni-duesseldorf.de/general/dsml/trippy-public) and [Trade](https://github.com/jasonwu0731/trade-dst). These components have their own liscences. Please refer to their official repositories.
