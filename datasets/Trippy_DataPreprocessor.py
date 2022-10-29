@@ -1,3 +1,22 @@
+# coding=utf-8
+#
+# Copyright 2020 Heinrich Heine University Duesseldorf
+#
+# Part of this code is based on the source code of BERT-DST
+# (arXiv:1907.03040)
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import copy
 import os.path
 import pdb
@@ -11,6 +30,10 @@ import six
 import numpy as np
 import json
 from tqdm import tqdm
+
+'''
+Most of the codes are from https://gitlab.cs.uni-duesseldorf.de/general/dsml/trippy-public
+'''
 
 """ target dataset should be like
     json:{
@@ -30,24 +53,6 @@ from tqdm import tqdm
         }
     }
 """
-# coding=utf-8
-#
-# Copyright 2020 Heinrich Heine University Duesseldorf
-#
-# Part of this code is based on the source code of BERT-DST
-# (arXiv:1907.03040)
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 
 import json
 import re
