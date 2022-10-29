@@ -50,7 +50,7 @@ python experiments.py --method SimpleTOD --devices 0 1 2 3 --pretrained gpt2 --t
 
 By default, the model checkpoints are save under `${method}/checkpoints/`.
 
-We also shared our trained checkpoints in ().
+We also shared our trained checkpoints at xxx(TBD).
 
 ## Testing
 
