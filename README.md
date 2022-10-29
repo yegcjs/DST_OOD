@@ -48,9 +48,9 @@ You can accelerate training with data distributed parallel training by assigning
 python experiments.py --method SimpleTOD --devices 0 1 2 3 --pretrained gpt2 --train
 ```
 
-By default, the model checkpoints are save under `${method}/checkpoints/`.
+By default, the model checkpoints are under `${method}/checkpoints/`.
 
-We also shared our trained checkpoints at xxx(TBD).
+We also share our trained checkpoints at xxx(TBD).
 
 ## Testing
 
