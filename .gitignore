@@ -1,0 +1,8 @@
+.idea/
+MultiWOZ*/
+*debug*
+*.pyc
+__pycache__/
+logs/
+dump/
+checkpoints/
