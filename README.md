@@ -64,4 +64,6 @@ python experiments.py --method Trade --devices 0 --pretrained none --ood --check
 ```
 
 ## License
+The code is released under BSD 3-Clause - see [LICENSE](https://github.com/yegcjs/OOD_DST/blob/main/license) for details.
+
 This code includes other open source codes from [SimpleTOD](github.com/salesforce/simpletod), [Trippy](gitlab.cs.uni-duesseldorf.de/general/dsml/trippy-public) and [Trade](github.com/jasonwu0731/trade-dst). These components have their own liscences. Please refer to their official repositories.
